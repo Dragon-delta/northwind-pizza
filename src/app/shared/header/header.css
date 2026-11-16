@@ -1,7 +1,6 @@
 .app-header mat-toolbar {
     display: flex;
     gap: 0.5rem;
-    background-color: var(--pizza-red) !important;
     color: white;
 }
 

@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --pizza-red: #d32f2f;
-    --success: #18ad77;
-    --default-blue: #08179c;
+   --tomato-red: #B83227;
+   --dark-tomato: #8f261f;
+   --warm-cream: #f8f3e9;
+   --basil: #26332c;
+   --golden-cheese: #d99a35;
+   --white-surface: #fff;
+   --charcoal: #343434;
 }

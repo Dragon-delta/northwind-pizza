@@ -39,17 +39,18 @@ body {
 
 :root {
   @include mat.toolbar-overrides((
-    container-background-color: var(--pizza-red),
+    container-background-color: var(--basil),
     container-text-color: white
   ));
 
   @include mat.sidenav-overrides((
-    container-divider-color: var(--pizza-red),
+    container-divider-color: var(--basil),
     container-width: 250px,
     container-shape: 0.26rem
   ));
 
   @include mat.badge-overrides((
-    background-color: var(--default-blue),
+    background-color: var(--golden-cheese),
+    text-color: var(--charcoal),
   ));
 }
