@@ -36,3 +36,20 @@ body {
   margin: 0;
   height: 100%;
 }
+
+:root {
+  @include mat.toolbar-overrides((
+    container-background-color: var(--pizza-red),
+    container-text-color: white
+  ));
+
+  @include mat.sidenav-overrides((
+    container-divider-color: var(--pizza-red),
+    container-width: 250px,
+    container-shape: 0.26rem
+  ));
+
+  @include mat.badge-overrides((
+    background-color: var(--default-blue),
+  ));
+}

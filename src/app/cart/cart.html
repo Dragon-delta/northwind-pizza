@@ -50,11 +50,11 @@
         <h2>Total: {{ cartService.totalPrice() | currency:"USD" }}</h2>
         
         <div class="cart-actions">
-            <button mat-icon-button color="warn" (click)="clearCart()">
+            <button mat-icon-button (click)="clearCart()" class="clear">
                 <mat-icon>clear</mat-icon>
             </button>
             
-            <button mat-icon-button color="primary" (click)="checkout()">
+            <button mat-icon-button (click)="checkout()" class="checkout">
                 <mat-icon>shopping_cart_checkout</mat-icon>
             </button>
         </div>
