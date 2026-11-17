@@ -39,12 +39,12 @@ body {
 
 :root {
   @include mat.toolbar-overrides((
-    container-background-color: var(--basil),
+    container-background-color: var(--basil-green),
     container-text-color: white
   ));
 
   @include mat.sidenav-overrides((
-    container-divider-color: var(--basil),
+    container-divider-color: var(--basil-green),
     container-width: 250px,
     container-shape: 0.26rem
   ));
